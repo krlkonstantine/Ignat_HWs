@@ -1,0 +1,66 @@
+.hw3Container {
+    background-color: #eeeec3;
+
+}
+
+.normalInput {
+    border: 1px solid #247300;
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.normalInput:hover {
+    border: 2px solid #247300;
+    border-radius: 5px;
+    margin: 10px;
+    height: 27px;
+    font-size: 16px;
+}
+
+.error {
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+    font-size: 16px;
+}
+.error:hover {
+    border: 2px solid #247300;
+
+}
+
+.errorText {
+    font-weight: 600;
+    font-size: 18px;
+    color: crimson;
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    line-height: 17px;
+}
+
+.addUserBtn {
+    font-size: 17px;
+    font-weight: 650;
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgba(81, 7, 146, 0.68);
+    background-color: #bdb76b;
+    color: #510792FF;
+}
+.addUserBtn:hover {
+    font-size: 17px;
+    width: 55px;
+    border-width: 2px;
+    border-color: #510792FF;
+}
+
+.totalNumber {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 10px;
+}

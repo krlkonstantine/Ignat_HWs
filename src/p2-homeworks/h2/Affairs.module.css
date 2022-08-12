@@ -1,0 +1,86 @@
+.affairsContainer {
+    margin: 5px 15px;
+}
+
+.affairsGeneralContainer {
+    background-color: lightgrey;
+}
+
+.buttonsContainer {
+    margin: 10px 0;
+}
+
+.affairTitle {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.affairTitle:hover {
+    font-size: 18px;
+    font-weight: 750;
+    line-height: 23px;
+}
+
+
+.filterButton {
+    background-color: #eeeec3;
+    margin-right: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: 14px;
+    color: #510792;
+
+}
+.filterButton:hover {
+    background-color: #eeeec3;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 2px darkcyan solid;
+    font-size: 14px;
+    color: darkcyan;
+    font-weight: 600;
+}
+.activeFilterButton {
+    background-color: #bdb76b;
+    margin-right: 10px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: darkcyan;
+    font-size: 14px;
+    color: darkcyan;
+    font-weight: 700;
+}
+
+.affairDeleteButton {
+    text-align: center;
+    font-size: 11px;
+    margin: 0 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: darkcyan;
+}
+.affairDeleteButton:hover {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: crimson;
+    background-color: rgb(196, 139, 150);
+}
+
+
+.high {
+    color: crimson;
+}
+
+.middle {
+    color: goldenrod;
+}
+
+.low {
+    color: olivedrab
+}
