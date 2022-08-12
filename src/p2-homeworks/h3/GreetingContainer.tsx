@@ -3,16 +3,10 @@ import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-    users: UserType[] // need to fix any
-    addUserCallback: (name: string) => void // need to fix any
+    users: UserType[]
+    addUserCallback: (name: string) => void
 }
 
-// более простой и понятный для новичков
-
-// более современный и удобный для про :)
-// уровень локальной логики
-
-// function GreetingContainer(props: GreetingPropsType) {
 
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('')
