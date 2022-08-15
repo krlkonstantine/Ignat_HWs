@@ -3,10 +3,34 @@
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 3px solid red;
 }
 
 .error {
-    color: red;
+    color: #ff0000;
+    border-radius: 5px;
+    margin: 5px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.error:hover {
+    font-weight: 600;
+}
+
+.formRowInput{
+    border: 1px solid #247300;
+    border-radius: 5px;
+    margin: 5px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.formRowInput:hover {
+    border: 2px solid #247300;
+    border-radius: 5px;
+    margin: 5px;
+    height: 27px;
+    font-size: 16px;
+    background-color:transparent;
 }

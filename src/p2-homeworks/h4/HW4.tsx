@@ -20,7 +20,7 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div>
+        <div className={s.hw4Container}>
             <hr/>
             homeworks 4
 
@@ -39,7 +39,8 @@ function HW4() {
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
+                <SuperButton
+                className={s.justaButton}>
                     default
                 </SuperButton>
 

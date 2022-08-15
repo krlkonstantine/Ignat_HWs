@@ -1,7 +1,33 @@
-.checkbox {
 
-}
 
 .spanClassName {
 
+}
+.customCheckboxes{
+    display: flex;
+    flex-direction: row;
+}
+.customCheckbox input[type="checkbox"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.15em solid #007a7e;
+    outline: none;
+    cursor: pointer;
+    display: inline-block
+}
+
+.spanClassName{
+    font-size: 1.6em;
+    display: inline-block
+}
+
+input:checked {
+    background-color: #007a7e;
+    position: relative;
 }

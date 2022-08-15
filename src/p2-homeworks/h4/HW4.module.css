@@ -1,5 +1,9 @@
+.hw4Container{
+    background: lightgrey
+}
+
 .blue {
-    border-bottom: 5px solid blue;
+    border-bottom: 2px solid #00a6ff;
 }
 
 .yellowgreenBaby {
@@ -14,4 +18,30 @@
 
 .testSpanError {
     color: blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #e6f4fd;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.justaButton {
+    font-size: 17px;
+    font-weight: 650;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgba(81, 7, 146, 0.68);
+    background-color: #bdb76b;
+    color: #510792FF;
+    margin: 5px;
+}
+.justaButton:hover {
+    font-size: 17px;
+    border-width: 2px;
+    border-color: #510792FF;
 }

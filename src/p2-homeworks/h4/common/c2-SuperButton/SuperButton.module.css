@@ -2,6 +2,20 @@
 
 }
 
+
 .red {
-    background: red;
+    font-size: 17px;
+    font-weight: 650;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgba(81, 7, 146, 0.68);
+    background-color: orangered;
+    color: #510792FF;
+    margin: 5px;
+}
+.red:hover {
+    font-size: 18px;
+    border-width: 2px;
+    border-color: #510792FF;
 }
