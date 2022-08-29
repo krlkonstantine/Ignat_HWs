@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ignat_HWs/static/css/main.a1ffc558.css",
+    "main.js": "/Ignat_HWs/static/js/main.b5af9af4.js",
+    "index.html": "/Ignat_HWs/index.html",
+    "main.a1ffc558.css.map": "/Ignat_HWs/static/css/main.a1ffc558.css.map",
+    "main.b5af9af4.js.map": "/Ignat_HWs/static/js/main.b5af9af4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1ffc558.css",
+    "static/js/main.b5af9af4.js"
+  ]
+}
