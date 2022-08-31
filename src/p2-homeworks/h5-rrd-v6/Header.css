@@ -1,0 +1,49 @@
+.popUpMenuContainer{
+    position: relative;
+    display: inline-block;
+}
+
+.popUpMenuContent{
+    display: none;
+    position: absolute;
+    background-color: #eeeec3;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.popUpMenuBtn{
+    background-color: #4CAF50;
+    padding: 16px;
+    border: none;
+    font-size: 17px;
+    font-weight: 650;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px rgba(81, 7, 146, 0.68);
+    color: #510792FF;
+    margin: 5px;
+}
+
+.popUpMenuContainer:hover .popUpMenuContent {display: inline;}
+.popUpMenuContainer:hover .popUpMenuBtn {background-color: #3e8e41;}
+
+
+.act-link{
+    color: chocolate;
+    padding-left: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.def-link{
+    color: black;
+    padding-left: 5px;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+.def-link:hover {
+    font-size: 20px;
+}
+
